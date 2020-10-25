@@ -3,7 +3,13 @@ import { View, Text } from "react-native";
 
 const SecondScreen = ({ navigation, route }) => {
   return (
-    <View>
+    <View
+      style={{
+        justifyContent: "center",
+        alignItems: "center",
+        flex: 1
+      }}
+    >
       <Text>{} Screen</Text>
     </View>
   );
