@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 const SecondScreen = ({ navigation, route }) => {
   return (
     <>
-      <Layout />
+      <Layout name={route.name} />
     </>
   );
 };

@@ -4,7 +4,7 @@ import { View, Text } from "react-native";
 const FourthScreen = ({ navigation, route }) => {
   return (
     <>
-      <Layout />
+      <Layout name={route.name} />
     </>
   );
 };

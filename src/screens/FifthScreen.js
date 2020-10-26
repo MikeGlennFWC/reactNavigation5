@@ -1,10 +1,9 @@
 import React from "react";
-import { View, Text } from "react-native";
 
 const FifthScreen = ({ navigation, route }) => {
   return (
     <>
-      <Layout />
+      <Layout name={route.name} />
     </>
   );
 };
