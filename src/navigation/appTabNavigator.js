@@ -13,6 +13,7 @@ const SecondScreenTopTabNavigator = () => (
   <AppTopNavigator.Navigator
     initialRouteName="CHATS"
     tabBarOptions={{
+      // style options for the top tab
       style: { backgroundColor: "#490222" },
       labelStyle: { fontSize: 14, fontWeight: "bold" },
       activeTintColor: "#ffffff",
@@ -30,6 +31,7 @@ const AllScreenTabNavigator = () => (
   <AppBottomNavigator.Navigator
     initialRouteName="First"
     screenOptions={{
+      // changes the color of the tab
       tabBarColor: "#490222"
     }}
   >

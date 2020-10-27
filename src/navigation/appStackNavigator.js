@@ -9,6 +9,7 @@ const ThirdScreenNavigation = () => (
   <StackNavigator.Navigator
     initialRouteName="Third"
     screenOptions={{
+      //hides the stack header from showing
       header: () => null
     }}
   >
